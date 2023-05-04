@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "export PATH=\"$PATH:./node_modules/.bin\" && vite build",
     "start": "export PATH=\"$PATH:./node_modules/.bin\" && vite preview",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
     
   },
   "dependencies": {
