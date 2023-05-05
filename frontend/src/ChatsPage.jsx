@@ -7,7 +7,7 @@ const ChatsPage = (props) => {
 
   useEffect(() => {
     axios.get(
-      'https://chatapp-react-node.onrender.com/get-user-chat-token',
+      'https://chatapp-react-node.onrender.com/chatToken',
       {
         params: {
           username: props.user.username,
